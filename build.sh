@@ -1,1 +1,1 @@
-docker build --tag flavio20002/android:28 -f Dockerfile .
+docker build --tag flavio20002/android-cli:28 -f Dockerfile .
