@@ -1,0 +1,1 @@
+docker build --tag flavio20002/android:28 -f Dockerfile .
