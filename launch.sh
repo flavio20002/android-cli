@@ -1,3 +1,3 @@
 cp -r /staging/* /app
 gradle bundleRelease
-cp /app/build/outputs/apk/release/*.apk /apk
+cp /app/build/outputs/bundle/release/*.aab /aab
