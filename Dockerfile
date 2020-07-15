@@ -24,4 +24,5 @@ RUN apt-get update && apt-get install build-essential -y && apt-get install file
 COPY launch.sh /
 WORKDIR /app
 
-ENTRYPOINT [ "bash", "/launch.sh" ]
+ENTRYPOINT [ "bash" ]
+CMD ["/launch.sh"]
