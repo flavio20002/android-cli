@@ -2,8 +2,8 @@ FROM gradle:5.4.1-jdk8
 USER root
 ENV SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" \
     ANDROID_HOME="/usr/local/android-sdk" \
-    ANDROID_VERSION=28 \
-    ANDROID_BUILD_TOOLS_VERSION=28.0.3
+    ANDROID_VERSION=29 \
+    ANDROID_BUILD_TOOLS_VERSION=29.0.2
 # Download Android SDK
 RUN mkdir "$ANDROID_HOME" .android \
     && cd "$ANDROID_HOME" \
