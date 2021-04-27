@@ -1,4 +1,4 @@
-FROM gradle:5.4.1-jdk8
+FROM gradle:6.8-jdk8
 USER root
 ENV SDK_URL="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip" \
     ANDROID_HOME="/usr/local/android-sdk" \
